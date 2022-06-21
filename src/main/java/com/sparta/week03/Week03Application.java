@@ -2,7 +2,10 @@ package com.sparta.week03;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+@EnableJpaAuditing
+// Hey, Java! we will use JPA Selection. Check it out!
 @SpringBootApplication
 public class Week03Application {
 
